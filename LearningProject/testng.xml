@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite for Local" parallel="tests">
+<listeners><listener class-name="resources.Listeners"></listener></listeners>
+	<test name="Home">
+
+	<classes>
+	
+	
+		 <!-- --> <class name="secondPackage.HomeTest" /> 
+	
+			</classes>
+	</test>	
+	<test name="Gmail">
+	<classes>
+	 <class name="secondPackage.GmailTest">
+	</class>
+	
+	</classes>
+	</test>
+	<test name="Synchronization">
+	<classes>
+	<!-- <class name="secondPackage.SynchronizationPractice"></class>-->
+	</classes>
+	</test>
+		
+		
+</suite>
